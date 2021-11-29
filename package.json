@@ -1,0 +1,29 @@
+{
+  "name": "chattyapp-garciao",
+  "version": "1.0.0",
+  "description": "chat",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "chat",
+    "html",
+    "css",
+    "javascript",
+    "express",
+    "mongodb",
+    "socketio"
+  ],
+  "author": "garciaomalejandra",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.13",
+    "socket.io": "^4.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
